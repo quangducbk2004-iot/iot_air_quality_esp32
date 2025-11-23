@@ -1,0 +1,10 @@
+name=Adafruit SH110X
+version=2.1.14
+author=Adafruit
+maintainer=Adafruit <info@adafruit.com>
+sentence=Driver for SH1106 and SH1107 based monochrome OLED displays.
+paragraph=Works with Adafruit GFX Library to draw graphics and text on SH110X OLED modules over I2C or SPI, commonly used with Arduino and ESP32 boards.
+category=Display
+url=https://github.com/adafruit/Adafruit_SH110X
+architectures=*
+depends=Adafruit GFX Library, Adafruit BusIO

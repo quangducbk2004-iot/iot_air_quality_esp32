@@ -1,0 +1,9 @@
+name=Wire
+version=3.3.4
+author=Hristo Gochkov
+maintainer=Hristo Gochkov <hristo@espressif.com>
+sentence=I2C/TWI communication library for ESP32 boards.
+paragraph=Provides a Two Wire Interface (I2C) implementation so the ESP32 can communicate with sensors, real-time clocks, displays and other I2C peripherals using SDA and SCL lines.
+category=Signal Input/Output
+url=http://arduino.cc/en/Reference/Wire
+architectures=esp32

@@ -1,0 +1,9 @@
+name=SD
+version=1.3.0
+author=Arduino, SparkFun
+maintainer=Arduino <info@arduino.cc>
+sentence=Enables reading from and writing to SD memory cards.
+paragraph=Provides a simple API to open files, read and write data, and navigate directories on SD cards connected through the SPI interface.
+category=Data Storage
+url=http://www.arduino.cc/en/Reference/SD
+architectures=*

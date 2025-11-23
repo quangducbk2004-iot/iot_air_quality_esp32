@@ -1,0 +1,9 @@
+name=Nova Fitness Sds dust sensors library
+version=1.5.1
+author=Paweł Kołodziejczyk
+maintainer=Paweł Kołodziejczyk
+sentence=High level driver for Nova Fitness SDS011 and SDS021 dust sensors.
+paragraph=Implements the serial protocol for Nova Fitness SDS dust sensors, handling PM2.5 and PM10 measurements, command framing, checksum validation and automatic retries on communication errors.
+category=Sensors
+url=https://github.com/lewapek/sds-dust-sensors-arduino-library
+architectures=*

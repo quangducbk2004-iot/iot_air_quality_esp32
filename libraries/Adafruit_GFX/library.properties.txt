@@ -1,0 +1,10 @@
+name=Adafruit GFX Library
+version=1.12.4
+author=Adafruit
+maintainer=Adafruit <info@adafruit.com>
+sentence=Core graphics library used by many Adafruit display drivers.
+paragraph=Provides basic drawing primitives (pixels, lines, text, bitmaps) that are shared across Adafruit display libraries. Install this in addition to the specific display driver.
+category=Display
+url=https://github.com/adafruit/Adafruit-GFX-Library
+architectures=*
+depends=Adafruit BusIO
