@@ -1,0 +1,25 @@
+Với bản Code v3 => Sơ đồ kết nối: 
+
+
+| Thiết bị                  | Chân module | ESP32         | Ghi chú                               |
+| ------------------------- | ----------- | ------------- | ------------------------------------- |
+| **OLED SH1106 (I²C)**     | VCC         | 3.3V          | ⚠️ Không dùng VIN                    |
+|                           | GND         | GND           | Mass chung                            |
+|                           | SDA         | GPIO 21       | Dữ liệu I²C                           |
+|                           | SCL         | GPIO 22       | Xung I²C 
+
+                                
+| **SDS011**                | VCC         | VIN (5V)      | Nguồn cho cảm biến                    |
+|                           | GND         | GND           | Chung mass                            |
+|                           | TX          | GPIO 16 (RX2) | Gửi dữ liệu → ESP32                   |
+|                           | RX          | GPIO 17 (TX2) | Nhận dữ liệu ← ESP32                  |
+
+
+
+v4    
+| **Micro SD Module (SPI)** | VCC         | 3.3V ⚠️       | Không cắm vào 5V                     |
+|                           | GND         | GND           | Chung mass                            |
+|                           | MISO        | GPIO 19       | SPI MISO                              |
+|                           | MOSI        | GPIO 23       | SPI MOSI                              |
+|                           | SCK         | GPIO 18       | SPI clock                             |
+|                           | CS          | GPIO 5        | Chân chọn chip (tùy chọn, có thể đổi) |
