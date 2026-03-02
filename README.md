@@ -88,13 +88,15 @@ Major power contributors:
 ---
 
 ## 📂 Project Structure
-/src
-├── main.ino
-├── sensor_bme280.cpp
-├── sensor_sds011.cpp
-├── sd_logger.cpp
-└── display_oled.cpp
-/docs
+.
+├── src/
+│ ├── main.ino
+│ ├── sensor_bme280.cpp
+│ ├── sensor_sds011.cpp
+│ ├── sd_logger.cpp
+│ └── display_oled.cpp
+│
+└── docs/
 ├── system_design.pdf
 └── test_results.pdf
 
